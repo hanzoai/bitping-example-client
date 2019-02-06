@@ -5,18 +5,19 @@ import (
 	"fmt"
 	"log"
 
-	storage "github.com/auser/bitping/storage"
+	storage "github.com/hanzoai/bitping-example-client/storage"
 
-	contracts "github.com/auser/bitping/contracts"
+	contracts "github.com/hanzoai/bitping-example-client/contracts"
 
 	// "github.com/ethereum/go-ethereum/common"
 
 	"github.com/auser/bitping/blockchains"
 	"github.com/auser/bitping/types"
-	"github.com/auser/bitping/work"
 	"github.com/codegangsta/cli"
+	"github.com/hanzoai/bitping-example-client/work"
 
 	. "github.com/auser/bitping/iface"
+	. "github.com/hanzoai/bitping-example-client/iface"
 )
 
 var watchers []Watcher

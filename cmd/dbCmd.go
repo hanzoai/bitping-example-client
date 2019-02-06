@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/auser/bitping/database"
 	"github.com/codegangsta/cli"
+	"github.com/hanzoai/bitping-example-client/database"
 )
 
 var sharedDbFlags = append([]cli.Flag{}, cli.StringFlag{

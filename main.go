@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	cmd "github.com/auser/bitping/cmd"
 	"github.com/codegangsta/cli"
+	cmd "github.com/hanzoai/bitping-example-client/cmd"
 )
 
 func main() {
