@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="bitping-example-client" width="880"></p>
+
 ## Bitping
 
 Bitping is the root of all the things.
